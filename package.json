@@ -1,16 +1,26 @@
 {
   "name": "electron",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Foco!",
+  "main": "src/electronmain.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "easytimer.js": "^4.1.1",
+  "author": "AugustoSavi",
+  "license": "MIT",
+  "build": {
+    "asar": "true",
+    "productName": "Foco"
+  },
+  "devDependencies": {
     "electron": "^8.2.0",
-    "jquery": "^3.4.1"
+    "electron-builder": "^22.4.1"
+  },
+  "dependencies": {
+    "buzz": "^1.2.1",
+    "easytimer.js": "^4.1.1",
+    "jquery": "^3.4.1",
+    "node-notifier": "^6.0.0"
   }
 }
