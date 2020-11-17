@@ -20,7 +20,7 @@
   "dependencies": {
     "buzz": "^1.2.1",
     "easytimer.js": "^4.1.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-notifier": "^6.0.0"
   }
 }
